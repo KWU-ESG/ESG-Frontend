@@ -5,10 +5,11 @@ export const Container = styled.div`
   flex-direction: row;
   column-gap: 1rem;
   margin-top: 2rem;
-  
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 768px) {
-    
+    width:100%;
   }
 `;
 
